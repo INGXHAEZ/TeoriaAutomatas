@@ -1,0 +1,21 @@
+inicio_programa
+
+ent contador = 0;
+deci promedio = 0.0;
+cade nombre = "Juan";
+
+func vacio mostrarMensaje() {
+    retorn;
+}
+
+mientras (contador <= 10) {
+    contador = contador + 1;
+}
+
+si (contador == 10) {
+    nombre = "Finalizado";
+} sino {
+    nombre = "Incompleto";
+}
+
+fin_programa
